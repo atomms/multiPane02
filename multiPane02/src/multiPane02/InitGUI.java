@@ -36,6 +36,7 @@ import javax.swing.JTextPane;
  *
  */
 
+
 public class InitGUI extends JFrame {
 
 	private JPanel contentPane;

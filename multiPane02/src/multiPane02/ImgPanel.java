@@ -24,6 +24,10 @@ public class ImgPanel extends JPanel{
 		this.dir=dir;
 	}
 
+	/**
+	 * paint gets a resource from a dir a redraws it using the frame size as constraints
+	 */
+	
 	public void paint(Graphics g){
 		Dimension size = getSize();
 		imagen = new ImageIcon(getClass().getClassLoader().getResource(dir));
